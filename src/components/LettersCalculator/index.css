@@ -1,0 +1,40 @@
+/* Write your code here. */
+.maincontainer {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  height: 100vh;
+}
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.heading {
+  font-size: 30px;
+  color: #ffffff;
+}
+.phrase {
+  font-size: 10px;
+  color: #ffffff;
+}
+.input {
+  background-color: transparent;
+  border-radius: 3px;
+  border: 0.5px solid #ffffff;
+  padding: 5px;
+}
+
+.counterletters {
+  font-size: 20px;
+  color: #219a6f;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.image {
+  width: 50%;
+}
