@@ -17,11 +17,14 @@ class LettersCalculator extends Component {
       <div className="maincontainer">
         <div className="textcontainer">
           <h1 className="heading">Calculate the Letters you enter</h1>
-          <p className="phrase">Enter the phrase</p>
+          <label htmlFor="labell" className="phrase">
+            Enter the phrase
+          </label>
           <input
+            id="labell"
             type="text"
-            label="Enter the phrase"
-            onChange={this.onChangeinput}
+            placeholder="Enter the phrase"
+            onChange={this.onChange}
             className="input"
           />
           <p className="counterletters">No of letters: {searchInputlength}</p>
