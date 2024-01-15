@@ -27,7 +27,7 @@ class LettersCalculator extends Component {
             onChange={this.onChange}
             className="input"
           />
-          <p className="counterletters">No of letters: {searchInputlength}</p>
+          <p className="counterletters">No.of letters: {searchInputlength}</p>
         </div>
         <img
           src="https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png"
